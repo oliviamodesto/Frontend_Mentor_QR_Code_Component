@@ -1,0 +1,136 @@
+body{
+    background:hsl(212, 45%, 89%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    display:flex;
+    height:100dvh;
+    justify-content:center;
+    align-items:center;
+    min-width:220px;
+}
+
+.box{
+    display:flex;
+    background:hsl(0, 0%, 100%);
+    flex-direction:column;
+    column-gap:0px;
+    align-items:center;
+}
+
+.box{
+    width:100%;
+    aspect-ratio:22/33;
+    z-index:0;
+    border-radius:17px;
+    min-width:220px;
+}
+
+
+.qr-code{
+    position:relative;
+    z-index:1;
+    width:100%;
+    aspect-ratio:1/1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:10px;
+}
+
+.title-box{
+    position:relative;
+    z-index:1;
+    text-align:center;
+    font-family:'Outfit';
+    width:100%;
+    height:17%;
+}
+
+.title{
+    font-weight:700;
+    color:hsl(218, 44%, 22%);
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:0%;
+}
+
+.desc-box{
+    position:relative;
+    z-index:1;
+    text-align:center;
+    font-family:'Outfit';
+    width:100%;
+    height:15%;
+    margin:-10%;
+}
+    
+.instructions{
+    font-weight:400;
+    color:hsl(216, 15%, 48%);
+}     
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+a:link{
+    text-decoration:none;
+    color:hsl(216, 15%, 48%);
+}
+
+a:visited{
+    text-decoration:none;
+    color:hsl(216, 15%, 48%);
+}
+
+@media (min-width:320px)  { 
+
+        .container{ width:45dvh; }
+
+        .title{ font-size:3dvh; }
+
+        .instructions{
+            font-size:2.1dvh;
+            margin-left:5%;
+            margin-right:5%;
+        }
+
+    }
+
+    @media (min-width:540px){
+        
+        .container{ width:20dvh; }
+
+        .title{ font-size:1em; }       
+            
+        .instructions{ font-size:0.7em; }
+
+    }
+
+    @media (min-width:900px) and (orientation:landscape){
+        
+        .container{ width:20dvh; }
+        
+        .title{ font-size:1em; }
+    
+        .instructions{ font-size:0.7em; }
+
+    }
+
+    @media (min-width:900px) and (orientation:portrait){ 
+        
+        .container{ width:20dvh; }
+        
+        .title{ font-size:1.3em; }
+   
+        .instructions{ font-size:0.9em; }
+    
+    }  
