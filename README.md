@@ -21,8 +21,8 @@ This is an improvement to the solution to the [QR code component challenge on Fr
 
 ### Screenshot
 
-![The first version fullscreen](./images/first_version_fullscreen.png)
-![The new version fullscreen]()
+![The first version fullscreen](./screenshots/version1/first_version_fullscreen.png)
+![The new version fullscreen](./screenshots/version2/second_version_full_screen.png)
 
 ### Links
 
