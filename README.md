@@ -15,18 +15,19 @@ This is an improvement to the solution to the [QR code component challenge on Fr
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
 ![The first version fullscreen](./screenshots/version1/first_version_fullscreen.png)
+The first version fullscreen.
+
 ![The new version fullscreen](./screenshots/version2/second_version_full_screen.png)
+The second version fullscreen.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [The live site for the second version](https://oliviamodesto.github.io/Frontend_Mentor_QR_Code_Component/)
 
 ## My process
 
@@ -38,11 +39,11 @@ This is an improvement to the solution to the [QR code component challenge on Fr
 
 ### What I learned
 
-To imortant this I learned when developing this version is the use of @media to control certain aspects of the CSS, and the use of the Chrome DevTools to visualize how my solution would appear on different devices.
+Two important things I learned when developing this version is the use of @media to control certain aspects of the CSS, and the use of the Chrome DevTools to visualize how my solution would appear on different devices.
 
 ### Useful resources
 
-- [Reference for media query sizes](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) - Useful refernece for media query sizes.
+- [Reference for media query sizes](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) - Useful reference for media query sizes.
 
 ## Acknowledgments
 
